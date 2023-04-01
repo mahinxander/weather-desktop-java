@@ -20,7 +20,7 @@ import java.net.URLConnection;
 public class WeatherController {
 
 //    private static final String API_KEY = "YOUR_API_KEY";
-    private static final String API_KEY = "edefc762f4743a1c4daff794753cf258";
+    private static final String API_KEY = "YOUR_API_KEY";
     private static final String API_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s&units=metric";
 
     @FXML
