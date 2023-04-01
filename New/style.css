@@ -1,0 +1,55 @@
+/* Set the background color of the grid pane */
+.grid-pane {
+    -fx-background-color: #f4f4f4;
+}
+
+/* Add padding to the labels */
+.label {
+    -fx-padding: 5;
+    /*-fx-text-fill: yellow;*/
+}
+
+/* Style the error label */
+#errorLabel {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+/* Style the text field */
+#cityField {
+    -fx-prompt-text-fill: #bfbfbf;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #bfbfbf;
+    -fx-border-radius: 2;
+    -fx-border-width: 1;
+    -fx-padding: 5;
+}
+
+/* Style the fetch weather button */
+#fetchWeatherButton {
+    /*-fx-background-color: red;*/
+    -fx-background-color: #1e90ff;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 2;
+    -fx-border-width: 1;
+    -fx-border-color: #1e90ff;
+    -fx-padding: 5;
+}
+
+/* Style the temperature label */
+#tempLabel {
+    -fx-font-weight: bold;
+    -fx-text-fill: yellow;
+    -fx-background-color: blue;
+}
+
+#tempLabeltext{
+    -fx-text-fill: Green;
+}
+
+
+
+/* Style the description label */
+#descLabel {
+    -fx-font-style: italic;
+}
